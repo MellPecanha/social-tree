@@ -1,0 +1,59 @@
+:root{
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+*{
+    
+    box-sizing: border-box;
+    background-color: var(--body-bg-color);
+    color: var(--purple);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#container{
+    margin: 0 auto;
+    width: 300px;
+}
+
+#profile img{
+    border: 2px solid var(--purple);
+    border-color: var(--purple);
+    border-radius: 100%;
+    margin-top: 50px;
+    padding: 2px;
+    width: 200px;    
+}
+
+#links{
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+#links li{
+    border: 2px solid var(--purple);
+    border-radius: 5px;
+    margin: 5px 0;
+    vertical-align: middle;
+}
+
+#social{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#social li{
+    margin: 0 8px;
+}
